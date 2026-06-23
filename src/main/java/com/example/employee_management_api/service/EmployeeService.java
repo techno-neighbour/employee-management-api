@@ -15,6 +15,9 @@ public class EmployeeService {
     public EmployeeService() {
         employees.add(new Employee(1, "Senthur", "DevOps", 500000));
         employees.add(new Employee(2, "John", "Testing", 400000));
+        employees.add(new Employee(3, "Miguel", "Sales", 250000));
+        employees.add(new Employee(4, "Wang", "Marketing", 300000));
+        employees.add(new Employee(5, "Habib", "HR", 350000));
     }
 
     public List<Employee> getAllEmployees() {
